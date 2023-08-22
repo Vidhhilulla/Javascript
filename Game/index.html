@@ -28,15 +28,32 @@
                  <h2>We'll tell you if your guess was too high or too low.</h2>
 
         </div>
-   
+
+
+        <div class="seconddiv d-flex">
+               
         <label for="guess">Enter a guess:</label>
         <input type="number" id="guessnumber" >
         <button id="btn">Submit Guess</button>
-        <p id="prev-guesses"></p>
+        </div>
+
+       
+
+        <div class="innercontainer d-flex d-col">
+            <p id="prev-guesses"></p>
+            <p id="suggestion"></p>
+            <p id="right_or_wrong"></p>
+            <button class="start_new_game" onClick="window.location.reload()">Restart</button>
+        </div>
+
+
+        <div class="restart d-flex d-col">
+
+            <h3>Your chances are over</h3>
+            <button class="chances_over" onClick="window.location.reload()">Restart</button>
+        </div>
         
-        <p id="suggestion"></p>
-        <p id="right_or_wrong"></p>
-        <button class="start_new_game">Restart</button>
+
         <!-- <input type="button" class="start_new_game"> -->
 
         <!-- <p>Previous Guess:</p> -->

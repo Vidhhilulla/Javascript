@@ -7,9 +7,14 @@
 
 .container
 {
-    background-color: #F4E0B9;
-    color: #7D7463;
+    background-color: #F8F0E5;
+    color: #102C57;
     height: 100vh;
+}
+
+label
+{
+    font-size: 20px;
 }
 
 .d-flex
@@ -52,5 +57,53 @@
 
 .start_new_game
 {
-    display:"none";
+    display:none;
+}
+
+#right_or_wrong
+{
+    /* height:100px; */
+    /* width:100px; */
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+
+.restart
+{
+    display: none;
+}
+
+.innercontainer *
+{   
+    margin: 10px;
+    font-weight: bold;
+}
+
+.seconddiv
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.seconddiv *
+{
+margin: 10px;
+font-weight: bolder;
+}
+
+.innercontainer 
+{   
+    align-items: center;
+    justify-content: center;
+}
+
+.restart *{
+font-weight: bolder;
+margin: 10px;
+}
+button{
+    /* height: 20px; */
+    width: 80px;
 }
