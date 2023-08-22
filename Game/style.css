@@ -1,0 +1,56 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-color: #F4E0B9;
+    color: #7D7463;
+    height: 100vh;
+}
+
+.d-flex
+{
+    display:flex;
+}
+
+.d-col
+{
+    flex-direction:column;
+}
+
+.heading 
+{
+    /* align-items: center;
+    justify-content: center; */
+    /* margin: auto; */
+    text-align: center;
+}
+.heading *
+{
+    margin: 6px;
+}
+.heading #gamename
+{
+    font-family: 'Barriecito' , cursive !important;
+    font-size:80px;
+    text-decoration: underline;
+    
+}
+
+.bg-red
+{
+    background-color: red;
+}
+.bg-green
+{
+    background-color: green;
+}
+
+.start_new_game
+{
+    display:"none";
+}

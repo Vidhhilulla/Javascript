@@ -18,7 +18,7 @@ button.addEventListener('click',(event)=>
 })
 
 const ip=document.querySelector('.ip')
-// console.log(ip.value)
+console.log(ip.value)
 
 const inputvalue=document.querySelector('.input-value')
 ip.addEventListener('input',(event)=>{

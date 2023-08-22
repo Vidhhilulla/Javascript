@@ -9,6 +9,8 @@ button.addEventListener('click',(event)=>
     if(button.textContent==='show password')
     {
        input.innerHTML=password.value;
+       password.type='text'
+
        if(input.innerText==='')
        button.textContent='show password'
         else 
@@ -18,11 +20,17 @@ button.addEventListener('click',(event)=>
     else if(button.textContent==='hide password')
     {
         input.innerHTML='';
+        password.type='password'
         button.textContent='show password'
 
     }
     
 })
+
+
+// Do this by doing type of button 
+// if text then do password
+// if password then text
 
 
 
