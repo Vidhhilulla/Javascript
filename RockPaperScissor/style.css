@@ -1,0 +1,140 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #97FEED;
+    color: #071952;
+    /* font-size: 30px; */
+}
+
+.d-flex
+{
+    display:flex;
+}
+
+.d-col
+{
+    flex-direction:column;
+}
+.heading
+{
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* .YouAndComputer *
+{
+    margin-left: 30px;
+} */
+
+/* .heading *
+{
+    padding: 10px;
+} */
+.YouAndComputer 
+{
+    margin: 10px;
+  
+}
+
+
+.you *
+{
+    padding: 5px;
+    
+}
+
+.you{
+    margin: 10px;
+}
+.Computer *
+{
+    padding: 5px;
+}
+.you 
+{
+   align-items: center;
+   justify-content: center;
+}
+.Computer 
+{
+    align-items: center;
+    justify-content: center;
+}
+
+    .game
+    {
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .game *
+    {
+padding: 10px;
+    }
+
+button{
+    height: 50px;
+    width: 80px;
+    
+}
+
+.RockPaperScissor *
+{
+    margin: 20px;
+}
+
+.MovesLeft
+{
+    align-items: center;
+    justify-self: center;
+}
+
+
+.givingDiscussion
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.givingDiscussion *
+{
+    margin: 10px;
+}
+
+.MovesLeft *
+{
+    margin: 10px;
+}
+
+button
+{
+    background-color: #0B666A;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+
+/* #TakingDiscussion
+{
+    background-color: #BB2525;
+    height: 40px;
+    width: 100px;
+    text-align:center;
+    color: #fff;
+} */
+
+#TakingDiscussion
+{
+ padding-top: 5px;
+text-align: center;
+}
+
+#whatComputerChose
+{
+    color: #040D12;
+}

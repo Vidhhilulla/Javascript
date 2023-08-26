@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.center
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex
+{
+    display: flex;
+}
+.d-col
+{
+    flex-direction: column;
+}
+
+input{
+    width: 700px;
+    height: 30px;
+    padding-left: 3px;
+}
+button{
+    width: 80px;    
+}
+.commonMargin
+{
+margin: 10px;
+}
+
+
+
+.container
+{
+    background-color: #FFF5E4;
+    color: #FF9494;
+}
+
+.additems *
+{
+    margin: 5px;
+}
+
+.container2
+{
+background-color: #FFF5E4;
+height: 100vh;
+margin-top: 20px;
+}
+
+.todo
+{
+    /* height: 100px; */
+    width: 1000px;
+    height: 100vh;
+    background-color: bisque; 
+    margin: auto;
+}
+
+.header
+{
+    /* height: 1000px; */
+    width: 1000px;
+    background-color: bisque;
+    margin: auto;
+}
+
+.writinginput
+{
+    width: 790px;
+    height: 100vh;
+    background-color:#FFF5E4;
+    margin: auto;
+}
+
+/* .writinginput p{
+
+    width: 790px;
+
+
+} */
